@@ -1,0 +1,23 @@
+{
+  "name": "cli-fruit-guessing-game",
+  "version": "3.0.0",
+  "description": "it is a simple cli fruit guessing game",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "fruit-guessing-game": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhib Ali Siddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/gradient-string": "^1.1.6",
+    "@types/inquirer": "^9.0.7"
+  }
+}
